@@ -11,7 +11,7 @@ st.set_page_config(
 
 st.title('Qwertypo generator')
 st.write(backend.mess_text('It happens all too often.',0.3))
-st.caption('© 20223 Christian Cardozo | [christiancardozo.com] (http://christiancardozo.com)')
+st.caption('© 20223 Christian Cardozo | (http://christiancardozo.com)')
 st.text('version alpha 0.1: 09-30-2023')
 st.write('')
 

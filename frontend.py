@@ -20,7 +20,7 @@ p_mistake = col1.slider('Error likelihood (%)',0,100,30)
 
 col1, col2 = st.columns(2)
 start_string = st.text_input('What are you trying to say?','The quick brown fox')
-st.write('What you type:')
+st.write('What you ultimately type:')
 st.success(backend.mess_text(start_string,p_mistake/100))
 
 

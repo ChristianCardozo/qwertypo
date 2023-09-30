@@ -9,7 +9,8 @@ st.set_page_config(
                     menu_items={'Report a Bug':'https://christiancardozo.com'},
                     )
 
-st.title('Qwertypo: exploring an element of the modern human condition')
+st.title('Qwertypo:')
+st.header('exploring an element of the modern human condition')
 st.write(backend.mess_text('It happens all too often.',0.3))
 st.caption('© 20223 Christian Cardozo | http://christiancardozo.com')
 st.text('version alpha 0.1: 09-30-2023')

@@ -13,7 +13,7 @@ st.set_page_config(
 st.title('Qwertypo')
 st.write(backend.mess_text('Exploring an element of the modern human condition.'))
 st.caption('© 2023 Christian Cardozo | http://christiancardozo.com')
-st.text('version alpha 0.1: 09-30-2023')
+# st.text('version alpha 0.1: 09-30-2023')
 
 # col1, col2, col3 = st.columns(3)
 p_mistake = st.slider('Error likelihood (%)',0,100,20)

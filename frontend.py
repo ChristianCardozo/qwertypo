@@ -16,7 +16,7 @@ st.caption('© 2023 Christian Cardozo | http://christiancardozo.com')
 # st.text('version alpha 0.1: 09-30-2023')
 
 # col1, col2, col3 = st.columns(3)
-p_mistake = st.slider('Error likelihood (%)',0,100,20)
+p_mistake = st.slider('Typo likelihood (%)',0,100,20)
 
 # col1, col2, col3 = st.columns(3)
 start_string = st.text_input('What are you trying to say?','The quick brown fox')

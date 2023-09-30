@@ -6,7 +6,7 @@ st.set_page_config(
                     # page_icon="📈",#None,
                     layout="centered",
                     initial_sidebar_state="auto",
-                    menu_items={'Report a Bug':'https://christiancardozo.com'},
+                    # menu_items={'Report a Bug':'https://christiancardozo.com'},
                     )
 
 # col1, col2, col3 = st.columns(3)
